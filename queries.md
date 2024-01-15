@@ -110,7 +110,7 @@ limit: 10
 
 <!-- Your Code Goes Here -->
 filter: { $and: [{ category_code: "web" }, { number_of_employees: {$gt: 4000} }] }
-sort: Sort: { number_of_employees: 1 }
+sort: { number_of_employees: 1 }
 
 ### 17. All the companies whose acquisition amount is more than 10.000.000, and currency is 'EUR'.
 
